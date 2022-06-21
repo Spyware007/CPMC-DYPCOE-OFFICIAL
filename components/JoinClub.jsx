@@ -21,7 +21,7 @@ const JoinClub = () => {
           always looking for motivated members that are eager to explore CP.
         </h1>
       </div>
-      <Link href="/joinus">
+      {/* <Link href="/joinus">
         <button className={classes.btn} style={{ marginTop: '0' }}>
           <span className={classes.span}>BECOME A MEMBER</span>
           <svg viewBox="0 0 13 10" height="10px" width="15px">
@@ -29,7 +29,9 @@ const JoinClub = () => {
             <polyline points="8 1 12 5 8 9"></polyline>
           </svg>
         </button>
-      </Link>
+      </Link> */}
+          <h1 className='text-[#F32053] text-[1.2rem] '>Joing process is closed for now</h1>
+         <span className='text-white pt-2'>don't worry, comeback later✨</span>
     </div>
   );
 };
