@@ -20,7 +20,7 @@ const MasterTalk = () => {
   const ieltsInput = useRef();
   const duolingoInput = useRef();
   const aimInput = useRef();
-  const [registered, setRegistered] = useState(true);
+  const [registered, setRegistered] = useState(false);
   const [visit, setVisit] = useState(0);
 
   const linkMap = ['https://chat.whatsapp.com/LIOZnHu3iXf5GGnPzw5epu'];
@@ -237,8 +237,8 @@ const MasterTalk = () => {
   const WhatsApp = () => {
     return (
       <div className={secondclasses.whatsappdiv}>
-        <h1 className={classes.input_label} style={{ textAlign: 'center', fontWeight: 'bold' }}>
-          Registerations are closed now!
+        <h1 className={classes.input_label} style={{ textAlign: 'center', fontWeight: 'bold', color:'green' }}>
+          Successful Registered!!!
         </h1>
         <p style={{ textAlign: 'center' }}>
           Join any one of our WhatsApp group for further Events.
